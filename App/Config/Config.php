@@ -1,15 +1,21 @@
 <?php
 
-// Roots
+	/*  DIR CONFIG     */
 define('APPROOT', dirname(__DIR__));
 define('APPNAME', 'Your Site Name');
 define('URLROOT', 'URL HERE');
 
 
-//DATABASE 
-define('DATABASE', 'mysql');           	 //   DATABASE
-define('HOST', 'host_name_here');     	//    YOUR HOSTNAME
-define('USER', 'user_name');           //     USERNAME DATABASE
-define('PASSWORD', '###');            //      Your Password
-define('DBNAME', 'dbname');        	 //       Database Name
+	/* Database Config */
+
+//   DATABASE SERVER
+define('DATABASE', 'mysql');   
+//    YOUR HOSTNAME        	 
+define('HOST', 'host_name_here');
+//     USERNAME DATABASE     	
+define('USER', 'user_name');  
+//      Your Password         
+define('PASSWORD', '###');  
+//       Database Name          
+define('DBNAME', 'dbname');        
 define('CHARSET', 'UTF8'); 
